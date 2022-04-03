@@ -1,2 +1,2 @@
-# scroll_to_top
-Scroll to top button
+# Scroll_to_top
+Scroll to top button Shopify App
