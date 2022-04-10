@@ -177,7 +177,7 @@ return [
     */
 
     'api_scopes' => env('SHOPIFY_API_SCOPES', 'read_themes,write_themes,read_script_tags,
-    write_script_tags'),
+    write_script_tags', 'read_files','write_files', 'read_themes', 'write_themes'),
 
     /*
     |--------------------------------------------------------------------------
@@ -321,6 +321,10 @@ return [
     */
 
     'webhooks' => [
+        [
+            'topic' => "app/uninstalled",
+            'address' => env('APP_URL'). '/webhook/app-uninstalled'
+        ],
         /*
             [
                 'topic' => env('SHOPIFY_WEBHOOK_1_TOPIC', 'ORDERS_CREATE'),
