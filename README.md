@@ -1,7 +1,7 @@
 
-## Shopify App boilerplate
+## Scroll to top App
 
-Shopify_boilerplate_Laravel_React
+Shopify Scroll to top App
 
 
 ## Technology
@@ -19,5 +19,3 @@ Shopify_boilerplate_Laravel_React
 3. If you want layout file - php artisan vendor:publish
 4. Migrations - php artisan migrate
 5. You can use tailwind css or bootstrap as per your need.
-
-I hope this boilerplate will useful you..! Cheers.
