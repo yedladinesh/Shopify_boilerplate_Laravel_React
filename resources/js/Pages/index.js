@@ -75,9 +75,9 @@ const Dashboard = ({ shopId }) => {
                                     enabled={active}
                                 >
                                     <Heading>
-                                        Age verification status ON/OFF
+                                        Status ON/OFF
                                     </Heading>
-                                    The age verification popup is currently{" "}
+                                    {" "}
                                     <Badge
                                         status={active ? "success" : "critical"}
                                     >
